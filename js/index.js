@@ -32,7 +32,7 @@ function getToken() {
       console.log('logout error', error);
     } finally {
       localStorage.clear();
-      location.assign('/login');
+      location.assign('/login.html');
     }
   }
   
